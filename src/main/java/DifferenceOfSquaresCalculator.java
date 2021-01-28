@@ -18,7 +18,7 @@ class DifferenceOfSquaresCalculator {
     }
 
     int computeDifferenceOfSquares(int input) {
-        return 0;
+        return computeSquareOfSumTo(input) - computeSumOfSquaresTo(input);
     }
 
 }
